@@ -118,3 +118,24 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+@media (max-width: 500px) {
+  .title,
+  .navbarSection,
+  .listBreeds,
+  .collectionContainer,
+  .collectionContainer,
+  .titleFavorite,
+  .favoriteContainer {
+    margin: 20px 10px;
+  }
+  .image {
+    width: 128px;
+    height: 128px;
+    margin: 5px;
+  }
+  .collectionContainer,
+  .favoriteContainer {
+    justify-content: center;
+  }
+}
